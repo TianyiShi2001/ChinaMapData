@@ -8,8 +8,8 @@
 #' @import tibble dplyr tidyr readr
 #'
 #' @examples
-#' china_map_load(2) %>% translate('cn_short')
-#' china_map_load(2) %>% translate('ja_full')
+#' china_map_load(2) %>% translate_province('cn_short')
+#' china_map_load(2) %>% translate_province('ja_full')
 translate_province <- function(data, to=NULL) {
   tr_tbl <- ChinaMapData::province_translation
   if(is.null(to)){

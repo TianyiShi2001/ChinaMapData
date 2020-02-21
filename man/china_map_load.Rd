@@ -10,8 +10,11 @@ china_map_load(decimal = NULL)
 \item{decimal}{number of decimals kept. By default it's kept to the best precision.}
 }
 \value{
-
+the map data as a tibble
 }
 \description{
 Translate province
+}
+\examples{
+china_map_load(2)
 }

@@ -17,3 +17,7 @@ translate_province(data, to = NULL)
 \description{
 Translate province
 }
+\examples{
+china_map_load(2) \%>\% translate_province('cn_short')
+china_map_load(2) \%>\% translate_province('ja_full')
+}

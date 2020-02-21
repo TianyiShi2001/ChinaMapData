@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-ChinaMapData使绘制标准中国地图更容易！此地图包含南海诸岛和台湾省，重庆市和四川省之间也划清了界限。推荐配合ggplot2使用。
+**ChinaMapData**使绘制标准中国地图更容易！此地图包含南海诸岛和台湾省，重庆市和四川省之间也划清了界限。推荐配合**ggplot2**使用。
 
 ```{r message=FALSE}
 library(ChinaMapData)
@@ -32,13 +32,15 @@ china_map_load(1) %>%
 
 ## 安装
 
-You can install the released version of ChinaMapData from [CRAN](https://CRAN.R-project.org) with:
+<!-- You can install the released version of ChinaMapData from [CRAN](https://CRAN.R-project.org) with:
 
 ``` r
 install.packages("ChinaMapData")
 ```
 
-And the development version from [GitHub](https://github.com/) with:
+And the development version from [GitHub](https://github.com/) with: -->
+
+因为目前功能还很简陋，未来还会有较大改动，所以还是先不打扰CRAN了。如果想体验，可以通过**devtools**安装最新开发版本：
 
 ``` r
 # install.packages("devtools")

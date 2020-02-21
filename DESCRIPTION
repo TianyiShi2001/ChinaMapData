@@ -1,0 +1,23 @@
+Package: ChinaMapData
+Title: China Map Data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tianyi",
+           family = "Shi",
+           role = c("aut", "cre"),
+           email = "tianyi.shi@oriel.ox.ac.uk",
+           comment = c(ORCID = "0000-0002-9204-9949"))
+Description: Easy-to-use China map data as tibbles.
+Encoding: UTF-8
+LazyData: true
+License: MIT + file LICENSE
+Imports:
+    broom,
+    rgdal
+Depends:
+    R (>= 3.5.0),
+    tibble,
+    dplyr,
+    tidyr,
+    readr
+RoxygenNote: 7.0.2
